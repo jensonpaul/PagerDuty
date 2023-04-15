@@ -1,0 +1,58 @@
+# Copyright (c) 2011-2013, PagerDuty, Inc. <info@pagerduty.com>
+# All rights reserved.
+# 
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above copyright
+#       notice, this list of conditions and the following disclaimer in the
+#       documentation and/or other materials provided with the distribution.
+#     * Neither the name of PagerDuty Inc nor the
+#       names of its contributors may be used to endorse or promote products
+#       derived from this software without specific prior written permission.
+# 
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL PAGERDUTY INC BE LIABLE FOR ANY
+# DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+# ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# Requires Windows Server 2008 R2+ & PowerShell 3.0+
+# You must also be able to run unsigned scripts (http://technet.microsoft.com/en-us/library/ee176961.aspx)
+# This can be done by running Set-ExecutionPolicy unsigned within PowerShell
+
+# Run a HTTP GET request & save the results
+function GET_Request ($url,$parameters,$api_key, $file) {
+    $http_request = New-Object -ComObject Msxml2.XMLHTTP
+    $http_request.open('GET', $($url + $parameters), $false)
+    $http_request.setRequestHeader("Content-type", "application/json")
+    $token = "Token token=" + $api_key
+    $http_request.setRequestHeader("Authorization", $token)
+    $http_request.send()
+    $results = $http_request.responseText | ConvertFrom-Json
+    $results.incidents | Export-Csv $file -notype
+    Write-Host "Exported incidents to:" $file
+}
+
+# Customizable parameters
+$subdomain = "pdt-ryan"
+$api_key = "z6LHzLH36bNxttMHJynm"
+$user_id = "PIE6ZH7"
+$service_id = "PUBX1JL"
+$num_days = 3
+$path = "C:\" #Add a trailing backslash to this variable
+
+# Calculate values
+$url = "https://" + $subdomain + ".pagerduty.com/api/v1/incidents"
+$since = (Get-Date).AddDays(-$num_days).ToString("yyyy-MM-dd")
+$file = $($path + "Incidents" + (Get-Date).ToString("yyyy-MM-dd") + ".csv")
+
+# Build URL and initiate HTTP GET request
+$parameters = "?since=" + $since + "&assigned_to_user=" + $user_id + "&service=" + $service_id + "&status=triggered&fields=incident_number,trigger_summary_data,created_on,html_url"
+GET_Request $url $parameters $api_key $file

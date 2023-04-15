@@ -1,0 +1,498 @@
+<TaskerData sr="" dvi="1" tv="4.8u1m">
+	<Profile sr="prof11" ve="2">
+		<cdate>1454032480928</cdate>
+		<edate>1456879336676</edate>
+		<id>11</id>
+		<mid0>12</mid0>
+		<nme>Gmail/Inbox Notification</nme>
+		<pri>45</pri>
+		<Event sr="con0" ve="2">
+			<code>31376</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES>&lt;StringArrayList sr=""&gt;&lt;_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;com.google.android.gm&lt;/_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;&lt;_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES1&gt;com.google.android.apps.inbox&lt;/_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES1&gt;&lt;/StringArrayList&gt;</com.balda.notificationlistener.extra.ARRAY_PACKAGES>
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>java.util.ArrayList</com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>
+					<com.balda.notificationlistener.extra.EVENT>0</com.balda.notificationlistener.extra.EVENT>
+					<com.balda.notificationlistener.extra.EVENT-type>java.lang.Integer</com.balda.notificationlistener.extra.EVENT-type>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE>36</com.balda.notificationlistener.extra.INT_VERSION_CODE>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.notificationlistener.extra.INT_VERSION_CODE-type>
+					<com.balda.notificationlistener.extra.OPERATION>0</com.balda.notificationlistener.extra.OPERATION>
+					<com.balda.notificationlistener.extra.OPERATION-type>java.lang.Integer</com.balda.notificationlistener.extra.OPERATION-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Posted, Gmail, Inbox</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%nlapp
+Owner app name
+Owner app name of notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%nlkey
+Notification key
+Notification key&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%nlpersistent
+Persistent notification
+It can be true or false&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%nlicon
+App icon
+App icon URI&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%nlcount
+Notification counter
+Number provided by the notifying app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%nlevent
+Notification event
+Values: posted or removed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%nltitle
+Notification title
+Notification title&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%nltext
+Notification text
+Notification text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%nlbigtext
+Notification big text
+Notification text for big view notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%nlinfotext
+Notification info text
+Notification info text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%nlsubtext
+Notification sub text
+Notification sub text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%nlticker
+Notification ticker
+Notification title&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%nlsummary
+Notification summary
+Notification summary text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%nllines()
+Notification lines array
+Notification inbox style lines array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%nlbuttons()
+Notification buttons names
+Notification buttons names&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.notificationlistener</Str>
+			<Str sr="arg2" ve="3">Notification Listener</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof2" ve="2">
+		<cdate>1456860050807</cdate>
+		<edate>1456879236493</edate>
+		<flags>2</flags>
+		<id>2</id>
+		<mid0>3</mid0>
+		<pri>38</pri>
+		<Event sr="con0" ve="2">
+			<code>6</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">!ALERT! PagerDuty</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof20" ve="2">
+		<cdate>1454032480928</cdate>
+		<edate>1456449194042</edate>
+		<flags>2</flags>
+		<id>20</id>
+		<limit>true</limit>
+		<mid0>19</mid0>
+		<pri>50</pri>
+		<Event sr="con0" ve="2">
+			<code>31376</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES>&lt;StringArrayList sr=""&gt;&lt;_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;com.google.android.gm&lt;/_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;&lt;/StringArrayList&gt;</com.balda.notificationlistener.extra.ARRAY_PACKAGES>
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>java.util.ArrayList</com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>
+					<com.balda.notificationlistener.extra.EVENT>0</com.balda.notificationlistener.extra.EVENT>
+					<com.balda.notificationlistener.extra.EVENT-type>java.lang.Integer</com.balda.notificationlistener.extra.EVENT-type>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE>36</com.balda.notificationlistener.extra.INT_VERSION_CODE>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.notificationlistener.extra.INT_VERSION_CODE-type>
+					<com.balda.notificationlistener.extra.OPERATION>0</com.balda.notificationlistener.extra.OPERATION>
+					<com.balda.notificationlistener.extra.OPERATION-type>java.lang.Integer</com.balda.notificationlistener.extra.OPERATION-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Posted, Gmail</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%nlapp
+Owner app name
+Owner app name of notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%nlkey
+Notification key
+Notification key&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%nlpersistent
+Persistent notification
+It can be true or false&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%nlicon
+App icon
+App icon URI&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%nlcount
+Notification counter
+Number provided by the notifying app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%nlevent
+Notification event
+Values: posted or removed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%nltitle
+Notification title
+Notification title&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%nltext
+Notification text
+Notification text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%nlbigtext
+Notification big text
+Notification text for big view notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%nlinfotext
+Notification info text
+Notification info text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%nlsubtext
+Notification sub text
+Notification sub text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%nlticker
+Notification ticker
+Notification title&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%nlsummary
+Notification summary
+Notification summary text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%nllines()
+Notification lines array
+Notification inbox style lines array&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%nlbuttons()
+Notification buttons names
+Notification buttons names&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.notificationlistener</Str>
+			<Str sr="arg2" ve="3">Notification Listener</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof7" ve="2">
+		<cdate>1454027527510</cdate>
+		<cldm>30</cldm>
+		<edate>1456879229670</edate>
+		<flags>2</flags>
+		<id>7</id>
+		<mid0>8</mid0>
+		<pri>38</pri>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">42752</Str>
+			<Str sr="arg2" ve="3">*PD-Agent (critical)*</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof9" ve="2">
+		<cdate>1454030636729</cdate>
+		<edate>1456441761195</edate>
+		<flags>2</flags>
+		<id>9</id>
+		<limit>true</limit>
+		<mid0>10</mid0>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.android.gm.ConversationListActivityGmail</appClass>
+				<appPkg>com.google.android.gm</appPkg>
+				<label>Gmail</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1454024491667</cdate>
+		<mdate>1456860103044</mdate>
+		<name>Base</name>
+		<pids>7,9,11,20,2</pids>
+		<tids>5,8,10,12,19,3</tids>
+		<Img sr="icon" ve="2">
+			<nme>hl_aaa_ext_home</nme>
+		</Img>
+	</Project>
+	<Task sr="task10">
+		<cdate>1454030651245</cdate>
+		<edate>1456441627016</edate>
+		<id>10</id>
+		<nme>Flash Evtprm</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Basic: %evtprm()
+%NTITLE
+
+summary: %nlsummary
+title: %nltitle
+text: %nltext
+ticker: %nlticker
+lines: %nllines()</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1454032493987</cdate>
+		<edate>1456879336676</edate>
+		<id>12</id>
+		<nme>NLsummary</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PVOLM</Str>
+			<Str sr="arg1" ve="3">%VOLM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Download/tasker_log.txt</Str>
+			<Str sr="arg1" ve="3">--------------------
+%DATE %TIME (%TIMES)
+PDActive: %PDACTIVE
+summary: %nlsummary
+title: %nltitle
+text: %nltext
+ticker: %nlticker
+lines: %nllines()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%nllines()</lhs>
+					<op>2</op>
+					<rhs>*TRIGGERED Incident*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%nltext</lhs>
+					<op>2</op>
+					<rhs>*TRIGGERED Incident*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Download/system_alert.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="3"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And2</bool1>
+				<bool2>Or</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%nllines()</lhs>
+					<op>2</op>
+					<rhs>*TRIGGERED Incident*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%nltext</lhs>
+					<op>2</op>
+					<rhs>*TRIGGERED Incident*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%PDACTIVE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%PDACTIVE</lhs>
+					<op>7</op>
+					<rhs>%PDACTIVE+7200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PDACTIVE</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or2</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PDACTIVE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>7</op>
+					<rhs>%PDACTIVE+7200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%PVOLM</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1456447946512</cdate>
+		<edate>1456449001394</edate>
+		<id>19</id>
+		<nme>Varset</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PDACTIVE</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">EvtPrm: %evtprm()</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Var: %PDACTIVE</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1456860064987</cdate>
+		<edate>1456879236493</edate>
+		<id>3</id>
+		<nme>Phone Alert</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PVOL</Str>
+			<Str sr="arg1" ve="3">%VOLR</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SMODE</Str>
+			<Str sr="arg1" ve="3">%SILENT</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Download/tasker_log.txt</Str>
+			<Str sr="arg1" ve="3">--------------------
+%DATE %TIME (%TIMES)
+PDActive: %PDACTIVE
+Datetime: %CDATE %CTIME
+Name: %CNAME
+Number: %CNUM</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="14"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or2</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PDACTIVE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>7</op>
+					<rhs>%PDACTIVE+7200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PDACTIVE</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or2</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PDACTIVE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>7</op>
+					<rhs>%PDACTIVE+7200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>304</code>
+			<Int sr="arg0">
+				<var>%PVOL</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1454026285828</cdate>
+		<edate>1456280747828</edate>
+		<id>5</id>
+		<nme>Alert2</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>171</code>
+			<Int sr="arg0" val="1958"/>
+			<Int sr="arg1" val="471"/>
+			<Int sr="arg2" val="50"/>
+			<Int sr="arg3" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Sender: %evtprm()</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1454027550700</cdate>
+		<edate>1456879229670</edate>
+		<id>8</id>
+		<nme>Beep</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PVOLM</Str>
+			<Str sr="arg1" ve="3">%VOLM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="14"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Download/tasker_log.txt</Str>
+			<Str sr="arg1" ve="3">--------------------
+%DATE %TIME (%TIMES)
+PDActive: %PDACTIVE
+Datetime: %SMSRN %SMSRT
+From: %SMSRF
+Subject: %SMSRD
+Body: %SMSRB</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Download/system_alert.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PDACTIVE</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or2</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PDACTIVE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIMES</lhs>
+					<op>7</op>
+					<rhs>%PDACTIVE+7200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%PVOLM</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
